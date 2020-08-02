@@ -1,0 +1,19 @@
+﻿<Window x:Class="CursorCoordinates.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:CursorCoordinates"
+        mc:Ignorable="d"
+        Title="Cursor Coordinates" Height="450" Width="800">
+    <Grid>
+
+        <Rectangle x:Name="rect" HorizontalAlignment="Center" Height="40" Width="10" Margin="0,0,0,40" Stroke="Black" VerticalAlignment="Center" Fill="Black">
+            <Rectangle.RenderTransform>
+                <RotateTransform x:Name="rrt" Angle="0" CenterX="5" CenterY="40"></RotateTransform>
+            </Rectangle.RenderTransform>
+        </Rectangle>
+
+    </Grid>
+    
+</Window>
